@@ -1,0 +1,137 @@
+
+.container {
+    margin-right: 20px;
+}
+
+#red-circle {
+    display: inline-block;
+}
+
+#div1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#div2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#lesson_c {
+    display: inline-block;
+    width: 280px;
+    border-width: 1.5px;
+    border-color: rgb(134, 134, 134);
+    border-style: solid;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    vertical-align: top;
+}
+
+#lesson_d {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#lesson_d p {
+    color: rgb(178, 178, 178);
+}
+
+#twitter_message_container {
+    vertical-align: top;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px rgb(157, 157, 157);
+    margin-bottom: 20px;
+}
+
+.pfp {
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+    object-position: center;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+#twitter_textbox {
+    border: none;
+    outline: none;
+}
+
+#tweet_button {
+    border: none;
+    background-color: #1DA1F2;
+    color: white;
+    height: 25.2px;
+    width: 60px;
+    border-radius: 18px;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.friend_pfp {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.friend_container {
+    height: 255px;
+    width: 170px;
+    border: 1px solid black;
+}
+
+#friend_stats {
+    padding-left: 8px;
+    padding-top: 5px;
+    height: 77px;
+}
+
+.friend_container h3 {
+    font-size: 16.2px;
+    margin-bottom: 3.5px;
+    margin-top: 0;
+}
+
+.friend_container p {
+    font-size: 12.5px;
+    margin-top: 0;
+    margin-bottom: 7.5px;
+}
+
+.friend_container button {
+    border: none;
+    background-color: #1DA1F2;
+    color: white;
+    height: 22.5px;
+    width: 90px;
+    font-size: 13px;
+    border-radius: 3px;
+    transition: 0.15s ease-in-out;
+}
+
+.friend_container button:hover {
+    background-color: #188dd6;
+}
+
+.friend_container button:active {
+    background-color: #1371ac;
+}
+
+#friend_container_container {
+    margin: 0;
+}

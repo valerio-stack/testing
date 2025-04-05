@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+    margin-top: 0.8cm;
+    margin-left: 0.8cm;
+    
+}
+
+h2 {
+    font-size: 180%;
+}
+
+#pelupessy {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+}
